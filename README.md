@@ -1,5 +1,5 @@
 The following project imitates Video Poker game.
-
+![Poker Video Game](poker.png)
 1) class Card represent the card in a game and have the following methods: 
 - sameSuit : to check if the cars have the same suit when we check the hand later
 - compareTo : to sort the arraylist and to check the ranks of cards
