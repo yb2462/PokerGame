@@ -12,14 +12,14 @@
 - shuffle: uses java.Random for shuffling,then takes two random indexes and switches between those two cards for extra randomness.
 - deal: takes the card with the index top and give to Player
 
-## class Player represents the player entity with its hand, bankroll and number of bets. Implements the following methods:
+## Player represents the player entity with its hand, bankroll and number of bets. Implements the following methods:
 - add a card
 - removes a card
 - bets : updated the bets and the balance
 - winnings : updates the balance after the game
 - get a bankroll : shows the player what is his current balance
 
-##  class Game imitates the game flow for one player. Has the following methods:
+##  Game imitates the game flow for one player. Has the following methods:
 - play: main method to run the game
 - checkHand: checks if the hand of the player equals any of the following [royal flush, straight flush, four of a kind, and etc...]
 
